@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _puts - function that prints a string
  * @str:string to be printed
@@ -6,9 +7,13 @@
  */
 void _puts(char *str)
 {
-	int i;
+        int i;
 
-	for (i = 0; str[0] != '\0' ; i++)
-		_putchar(str[i]);
-	_putchar('\n');
+        while (str[i])
+	{
+                _putchar(str[i]);
+		i++;
+	}
+        _putchar('\n');
 }
+    
