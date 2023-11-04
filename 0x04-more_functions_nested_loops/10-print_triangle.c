@@ -20,7 +20,7 @@ void print_triangle(int size)
 		{
 			for (spaces = size - row ; spaces >= 1 ; spaces--)
 			{
-				_putchar('\n');
+				_putchar(' ');
 			}
 			for (hashes = 1 ; hashes <= row ; hashes++)
 			{
