@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _mesmet - something
+ * _memset - something
  * @s: variable
  * @b: variable
  * @n: variable
